@@ -1,0 +1,132 @@
+{
+  "document": "ai-2027.pdf",
+  "source_url": "https://ai-2027.com/",
+  "answerable": [
+    {
+      "id": "agent3-copies",
+      "question": "How many Agent-3 copies does OpenBrain run in parallel in March 2027, and what is that workforce equivalent to?",
+      "evidence": "OpenBrain runs 200,000 Agent-3 copies in parallel",
+      "expected": ["200,000", "50,000", "30x"]
+    },
+    {
+      "id": "agent3-progress",
+      "question": "By how much does the Agent-3 workforce speed up OpenBrain's overall rate of algorithmic progress?",
+      "evidence": "overall rate of algorithmic progress by",
+      "expected": ["4x"]
+    },
+    {
+      "id": "cdz-share",
+      "question": "What percentage of China's AI-relevant compute was in the CDZ in February 2027?",
+      "evidence": "China has 40% of its AI-relevant compute",
+      "expected": ["40%"]
+    },
+    {
+      "id": "agent0-compute",
+      "question": "How much compute was Agent-0 trained with?",
+      "evidence": "Agent-0—was trained with 10^27 FLOP",
+      "expected": ["10^27"]
+    },
+    {
+      "id": "gpt4-compute",
+      "question": "How much compute did GPT-4 require to train, according to the scenario?",
+      "evidence": "GPT-4 required 2 ⋅10^25 FLOP",
+      "expected": ["10^25"]
+    },
+    {
+      "id": "early-2026-progress",
+      "question": "In early 2026, how much faster is OpenBrain making algorithmic progress with AI assistants?",
+      "evidence": "making algorithmic progress 50% faster",
+      "expected": ["50%"]
+    },
+    {
+      "id": "agent1-theft-impact",
+      "question": "If China stole Agent-1's weights in early 2026, how much could it increase its research speed?",
+      "evidence": "increase their research speed by nearly 50%",
+      "expected": ["50%"]
+    },
+    {
+      "id": "security-level",
+      "question": "What RAND security level is OpenBrain's security typical of in early 2026?",
+      "evidence": "secure only against low-priority attacks",
+      "expected": ["SL2"]
+    },
+    {
+      "id": "agent1-mini-cost",
+      "question": "How much cheaper is Agent-1-mini than Agent-1?",
+      "evidence": "a model 10x cheaper than Agent-1",
+      "expected": ["10x"]
+    },
+    {
+      "id": "stock-market-2026",
+      "question": "How much did the stock market go up in 2026?",
+      "evidence": "The stock market has gone up 30% in 2026",
+      "expected": ["30%"]
+    },
+    {
+      "id": "dc-protest",
+      "question": "How large is the anti-AI protest in DC in late 2026?",
+      "evidence": "10,000 person anti-AI protest in DC",
+      "expected": ["10,000"]
+    },
+    {
+      "id": "agent3-mini",
+      "question": "How does Agent-3-mini compare with Agent-3 in capability and cost?",
+      "evidence": "Agent-3-mini is less capable than Agent-3, but 10x cheaper",
+      "expected": ["10x"]
+    },
+    {
+      "id": "ai-friend",
+      "question": "What percentage of Americans consider an AI a close friend in July 2027?",
+      "evidence": "10% of Americans, mostly young people",
+      "expected": ["10%"]
+    },
+    {
+      "id": "agent4-copies",
+      "question": "How many Agent-4 copies are running in September 2027, and at what thinking speed?",
+      "evidence": "300,000 copies are now running at about 50x the thinking speed",
+      "expected": ["300,000", "50x"]
+    },
+    {
+      "id": "agent4-efficiency",
+      "question": "How compute-efficient is Agent-4 compared with the human brain?",
+      "evidence": "4,000x less compute-efficient than the human brain",
+      "expected": ["4,000x"]
+    },
+    {
+      "id": "ai-top-problem",
+      "question": "What share of Americans name AI as the most important problem facing the country in October 2027?",
+      "evidence": "20% of Americans name AI as the most",
+      "expected": ["20%"]
+    },
+    {
+      "id": "world-compute-share",
+      "question": "How would OpenBrain's share of world compute change if US compute were consolidated under it?",
+      "evidence": "share of world compute from 20% to 50%",
+      "expected": ["20%", "50%"]
+    },
+    {
+      "id": "economy-doubling",
+      "question": "How often does the modern human economy double?",
+      "evidence": "The modern human economy doubles every twenty years",
+      "expected": ["twenty years"]
+    }
+  ],
+  "unanswerable": [
+    {
+      "id": "agent1-dollar-cost",
+      "question": "How much did OpenBrain pay to train Agent-1?"
+    },
+    {
+      "id": "ceo-name",
+      "question": "What is the name of OpenBrain's CEO?"
+    },
+    {
+      "id": "tianwan-population",
+      "question": "What is the population of the town of Tianwan?"
+    },
+    {
+      "id": "agent3-language",
+      "question": "Which programming language is Agent-3's source code written in?"
+    }
+  ]
+}

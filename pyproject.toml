@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "atlasrag"
+version = "0.1.0"
+description = "Local-first PDF research assistant with hybrid retrieval, reranking, and grounded answers."
+readme = "README.md"
+license = "MIT"
+authors = [{ name = "Hamzeh Jarrar" }]
+requires-python = ">=3.11"
+dependencies = [
+    "bm25s>=0.2",
+    "numpy>=1.26",
+    "pymupdf>=1.24",
+    "qdrant-client>=1.10",
+    "sentence-transformers>=3.0",
+    "streamlit>=1.46",
+    "torch>=2.2",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8",
+    "ruff>=0.6",
+]
+
+[tool.setuptools.packages.find]
+include = ["atlasrag*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+filterwarnings = [
+    # Emitted by PyMuPDF's SWIG bindings, not by AtlasRAG.
+    "ignore:builtin type .* has no __module__ attribute:DeprecationWarning",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "B", "UP"]

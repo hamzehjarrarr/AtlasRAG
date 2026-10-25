@@ -1,0 +1,36 @@
+
+# Virtual environments
+.venv/
+venv/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Downloaded datasets and indexes
+data/
+
+# Local model and vector artifacts
+*.index
+*.npy
+*.npz
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+
+# macOS and editors
+.DS_Store
+.idea/
+.vscode/

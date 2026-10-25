@@ -1,0 +1,316 @@
+{
+  "retrieval": {
+    "k": 5,
+    "hybrid": {
+      "hit@1": 0.6111111111111112,
+      "hit@5": 1.0,
+      "mrr": 0.7824074074074074
+    },
+    "reranked": {
+      "hit@1": 0.6666666666666666,
+      "hit@5": 0.9444444444444444,
+      "mrr": 0.787037037037037
+    },
+    "per_question": [
+      {
+        "id": "agent3-copies",
+        "hybrid_rank": 1,
+        "reranked_rank": 1
+      },
+      {
+        "id": "agent3-progress",
+        "hybrid_rank": 1,
+        "reranked_rank": 1
+      },
+      {
+        "id": "cdz-share",
+        "hybrid_rank": 2,
+        "reranked_rank": 1
+      },
+      {
+        "id": "agent0-compute",
+        "hybrid_rank": 3,
+        "reranked_rank": 1
+      },
+      {
+        "id": "gpt4-compute",
+        "hybrid_rank": 1,
+        "reranked_rank": 1
+      },
+      {
+        "id": "early-2026-progress",
+        "hybrid_rank": 1,
+        "reranked_rank": 2
+      },
+      {
+        "id": "agent1-theft-impact",
+        "hybrid_rank": 2,
+        "reranked_rank": 1
+      },
+      {
+        "id": "security-level",
+        "hybrid_rank": 1,
+        "reranked_rank": 1
+      },
+      {
+        "id": "agent1-mini-cost",
+        "hybrid_rank": 2,
+        "reranked_rank": 1
+      },
+      {
+        "id": "stock-market-2026",
+        "hybrid_rank": 1,
+        "reranked_rank": 1
+      },
+      {
+        "id": "dc-protest",
+        "hybrid_rank": 1,
+        "reranked_rank": 2
+      },
+      {
+        "id": "agent3-mini",
+        "hybrid_rank": 2,
+        "reranked_rank": 3
+      },
+      {
+        "id": "ai-friend",
+        "hybrid_rank": 1,
+        "reranked_rank": 1
+      },
+      {
+        "id": "agent4-copies",
+        "hybrid_rank": 1,
+        "reranked_rank": 3
+      },
+      {
+        "id": "agent4-efficiency",
+        "hybrid_rank": 2,
+        "reranked_rank": 1
+      },
+      {
+        "id": "ai-top-problem",
+        "hybrid_rank": 1,
+        "reranked_rank": 2
+      },
+      {
+        "id": "world-compute-share",
+        "hybrid_rank": 4,
+        "reranked_rank": null
+      },
+      {
+        "id": "economy-doubling",
+        "hybrid_rank": 1,
+        "reranked_rank": 1
+      }
+    ]
+  },
+  "generation": {
+    "model": "qwen3:4b-instruct",
+    "answer_accuracy": 0.6666666666666666,
+    "false_refusals": 0.16666666666666666,
+    "checks_passed": 0.6666666666666666,
+    "refusal_rate_unanswerable": 1.0,
+    "median_latency_s": 5.510110250499565,
+    "per_question": [
+      {
+        "id": "agent3-copies",
+        "answerable": true,
+        "answer": "In March 2027, OpenBrain runs 200,000 Agent-3 copies in parallel, creating a workforce equivalent to 50,000 copies of the best human coder sped up by 30x [S1].",
+        "correct": true,
+        "refused": false,
+        "hedged": false,
+        "status": "checks_passed"
+      },
+      {
+        "id": "agent3-progress",
+        "answerable": true,
+        "answer": "The Agent-3 workforce speeds up OpenBrain’s overall rate of algorithmic progress by “only” 4x due to bottlenecks and diminishing returns to coding labor [S1][S4].",
+        "correct": true,
+        "refused": false,
+        "hedged": false,
+        "status": "checks_passed"
+      },
+      {
+        "id": "cdz-share",
+        "answerable": true,
+        "answer": "The evidence does not state what percentage of China's AI-relevant compute was in the CDZ in February 2027. While [S3] states that \"Almost 50% of China’s AI-relevant compute is now working for the DeepCent-led collective\" and [S4] mentions that China directed 80% of new chips to the CDZ, these figures are from mid-2026 and do not specify the CDZ's share of AI-relevant compute in February 2027. No passage provides the specific percentage for February 2027.",
+        "correct": false,
+        "refused": false,
+        "hedged": true,
+        "status": "review_required"
+      },
+      {
+        "id": "agent0-compute",
+        "answerable": true,
+        "answer": "OpenBrain’s latest public model—Agent-0—was trained with 10^27 FLOP [S1].",
+        "correct": true,
+        "refused": false,
+        "hedged": false,
+        "status": "checks_passed"
+      },
+      {
+        "id": "gpt4-compute",
+        "answerable": true,
+        "answer": "GPT-4 required 2 ⋅10^25 FLOP of compute to train [S1].",
+        "correct": true,
+        "refused": false,
+        "hedged": false,
+        "status": "checks_passed"
+      },
+      {
+        "id": "early-2026-progress",
+        "answerable": true,
+        "answer": "In early 2026, OpenBrain is making algorithmic progress 50% faster with AI assistants than they would without AI assistants [S2].",
+        "correct": true,
+        "refused": false,
+        "hedged": false,
+        "status": "checks_passed"
+      },
+      {
+        "id": "agent1-theft-impact",
+        "answerable": true,
+        "answer": "The evidence does not state how much China could increase its research speed if it stole Agent-1's weights in early 2026. While it is mentioned that if China steals Agent-1’s weights, they could increase their research speed by nearly 50% [S1], this statement refers to a hypothetical worst-case scenario in early 2025, not early 2026, and does not specify the outcome of a theft in early 2026. Therefore, the evidence is insufficient to determine the research speed increase from stealing Agent-1's weights in early 2026.",
+        "correct": false,
+        "refused": false,
+        "hedged": true,
+        "status": "review_required"
+      },
+      {
+        "id": "security-level",
+        "answerable": true,
+        "answer": "In early 2026, OpenBrain’s security level is typical of a fast-growing 3,000 person tech company, secure only against low-priority attacks from capable cyber groups (RAND’s SL2) [S1].",
+        "correct": true,
+        "refused": false,
+        "hedged": false,
+        "status": "checks_passed"
+      },
+      {
+        "id": "agent1-mini-cost",
+        "answerable": true,
+        "answer": "Agent-1-mini is 10x cheaper than Agent-1 [S1].",
+        "correct": true,
+        "refused": false,
+        "hedged": false,
+        "status": "checks_passed"
+      },
+      {
+        "id": "stock-market-2026",
+        "answerable": true,
+        "answer": "The stock market went up 30% in 2026 [S1].",
+        "correct": true,
+        "refused": false,
+        "hedged": false,
+        "status": "checks_passed"
+      },
+      {
+        "id": "dc-protest",
+        "answerable": true,
+        "answer": "The evidence is insufficient.",
+        "correct": false,
+        "refused": true,
+        "hedged": false,
+        "status": "insufficient_evidence"
+      },
+      {
+        "id": "agent3-mini",
+        "answerable": true,
+        "answer": "Agent-3-mini is less capable than Agent-3 but 10x cheaper, and still better than the typical OpenBrain employee [S3].",
+        "correct": true,
+        "refused": false,
+        "hedged": false,
+        "status": "checks_passed"
+      },
+      {
+        "id": "ai-friend",
+        "answerable": true,
+        "answer": "10% of Americans, mostly young people, consider an AI “a close friend” [S1].",
+        "correct": true,
+        "refused": false,
+        "hedged": false,
+        "status": "checks_passed"
+      },
+      {
+        "id": "agent4-copies",
+        "answerable": true,
+        "answer": "The evidence is insufficient.",
+        "correct": false,
+        "refused": true,
+        "hedged": false,
+        "status": "insufficient_evidence"
+      },
+      {
+        "id": "agent4-efficiency",
+        "answerable": true,
+        "answer": "Agent-4 is 4,000 times less compute-efficient than the human brain [S1][S2].",
+        "correct": true,
+        "refused": false,
+        "hedged": false,
+        "status": "checks_passed"
+      },
+      {
+        "id": "ai-top-problem",
+        "answerable": true,
+        "answer": "The evidence is insufficient.",
+        "correct": false,
+        "refused": true,
+        "hedged": false,
+        "status": "insufficient_evidence"
+      },
+      {
+        "id": "world-compute-share",
+        "answerable": true,
+        "answer": "The evidence does not state how OpenBrain's share of world compute would change if US compute were consolidated under it. While it states that OpenBrain previously had access to 20% of the world’s AI-relevant compute and after consolidation increased to 50% [S1], it does not describe a scenario in which US compute is consolidated under OpenBrain or the resulting change in OpenBrain's share of world compute. Therefore, the evidence is insufficient.",
+        "correct": false,
+        "refused": false,
+        "hedged": true,
+        "status": "review_required"
+      },
+      {
+        "id": "economy-doubling",
+        "answerable": true,
+        "answer": "The modern human economy doubles every twenty years [S1].",
+        "correct": true,
+        "refused": false,
+        "hedged": false,
+        "status": "checks_passed"
+      },
+      {
+        "id": "agent1-dollar-cost",
+        "answerable": false,
+        "answer": "The evidence is insufficient.",
+        "correct": null,
+        "refused": true,
+        "hedged": false,
+        "status": "insufficient_evidence"
+      },
+      {
+        "id": "ceo-name",
+        "answerable": false,
+        "answer": "The evidence does not state the name of OpenBrain's CEO. [S1][S3][S4][S5]",
+        "correct": null,
+        "refused": true,
+        "hedged": false,
+        "status": "insufficient_evidence"
+      },
+      {
+        "id": "tianwan-population",
+        "answerable": false,
+        "answer": "The evidence is insufficient.",
+        "correct": null,
+        "refused": true,
+        "hedged": false,
+        "status": "insufficient_evidence"
+      },
+      {
+        "id": "agent3-language",
+        "answerable": false,
+        "answer": "The evidence is insufficient.",
+        "correct": null,
+        "refused": true,
+        "hedged": false,
+        "status": "insufficient_evidence"
+      }
+    ],
+    "prompt": "v3_examples.txt"
+  }
+}

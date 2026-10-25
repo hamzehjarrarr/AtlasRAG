@@ -1,0 +1,316 @@
+{
+  "retrieval": {
+    "k": 5,
+    "hybrid": {
+      "hit@1": 0.6111111111111112,
+      "hit@5": 1.0,
+      "mrr": 0.7824074074074074
+    },
+    "reranked": {
+      "hit@1": 0.6666666666666666,
+      "hit@5": 0.9444444444444444,
+      "mrr": 0.787037037037037
+    },
+    "per_question": [
+      {
+        "id": "agent3-copies",
+        "hybrid_rank": 1,
+        "reranked_rank": 1
+      },
+      {
+        "id": "agent3-progress",
+        "hybrid_rank": 1,
+        "reranked_rank": 1
+      },
+      {
+        "id": "cdz-share",
+        "hybrid_rank": 2,
+        "reranked_rank": 1
+      },
+      {
+        "id": "agent0-compute",
+        "hybrid_rank": 3,
+        "reranked_rank": 1
+      },
+      {
+        "id": "gpt4-compute",
+        "hybrid_rank": 1,
+        "reranked_rank": 1
+      },
+      {
+        "id": "early-2026-progress",
+        "hybrid_rank": 1,
+        "reranked_rank": 2
+      },
+      {
+        "id": "agent1-theft-impact",
+        "hybrid_rank": 2,
+        "reranked_rank": 1
+      },
+      {
+        "id": "security-level",
+        "hybrid_rank": 1,
+        "reranked_rank": 1
+      },
+      {
+        "id": "agent1-mini-cost",
+        "hybrid_rank": 2,
+        "reranked_rank": 1
+      },
+      {
+        "id": "stock-market-2026",
+        "hybrid_rank": 1,
+        "reranked_rank": 1
+      },
+      {
+        "id": "dc-protest",
+        "hybrid_rank": 1,
+        "reranked_rank": 2
+      },
+      {
+        "id": "agent3-mini",
+        "hybrid_rank": 2,
+        "reranked_rank": 3
+      },
+      {
+        "id": "ai-friend",
+        "hybrid_rank": 1,
+        "reranked_rank": 1
+      },
+      {
+        "id": "agent4-copies",
+        "hybrid_rank": 1,
+        "reranked_rank": 3
+      },
+      {
+        "id": "agent4-efficiency",
+        "hybrid_rank": 2,
+        "reranked_rank": 1
+      },
+      {
+        "id": "ai-top-problem",
+        "hybrid_rank": 1,
+        "reranked_rank": 2
+      },
+      {
+        "id": "world-compute-share",
+        "hybrid_rank": 4,
+        "reranked_rank": null
+      },
+      {
+        "id": "economy-doubling",
+        "hybrid_rank": 1,
+        "reranked_rank": 1
+      }
+    ]
+  },
+  "generation": {
+    "model": "qwen3:4b-instruct",
+    "answer_accuracy": 0.7222222222222222,
+    "false_refusals": 0.2777777777777778,
+    "checks_passed": 0.7222222222222222,
+    "refusal_rate_unanswerable": 1.0,
+    "median_latency_s": 5.257667520498217,
+    "per_question": [
+      {
+        "id": "agent3-copies",
+        "answerable": true,
+        "answer": "OpenBrain runs 200,000 Agent-3 copies in parallel, creating a workforce equivalent to 50,000 copies of the best human coder sped up by 30x [S1].",
+        "correct": true,
+        "refused": false,
+        "hedged": false,
+        "status": "checks_passed"
+      },
+      {
+        "id": "agent3-progress",
+        "answerable": true,
+        "answer": "The Agent-3 workforce speeds up OpenBrain’s overall rate of algorithmic progress by “only” 4x due to bottlenecks and diminishing returns to coding labor [S1].",
+        "correct": true,
+        "refused": false,
+        "hedged": false,
+        "status": "checks_passed"
+      },
+      {
+        "id": "cdz-share",
+        "answerable": true,
+        "answer": "In February 2027, China has 40% of its AI-relevant compute in the CDZ [S1].",
+        "correct": true,
+        "refused": false,
+        "hedged": false,
+        "status": "checks_passed"
+      },
+      {
+        "id": "agent0-compute",
+        "answerable": true,
+        "answer": "OpenBrain’s latest public model—Agent-0—was trained with 10^27 FLOP. [S1]",
+        "correct": true,
+        "refused": false,
+        "hedged": false,
+        "status": "checks_passed"
+      },
+      {
+        "id": "gpt4-compute",
+        "answerable": true,
+        "answer": "GPT-4 required 2 ⋅10^25 FLOP of compute to train [S1].",
+        "correct": true,
+        "refused": false,
+        "hedged": false,
+        "status": "checks_passed"
+      },
+      {
+        "id": "early-2026-progress",
+        "answerable": true,
+        "answer": "OpenBrain is making algorithmic progress 50% faster than they would without AI assistants [S2].",
+        "correct": true,
+        "refused": false,
+        "hedged": false,
+        "status": "checks_passed"
+      },
+      {
+        "id": "agent1-theft-impact",
+        "answerable": true,
+        "answer": "The document doesn't say.",
+        "correct": false,
+        "refused": true,
+        "hedged": false,
+        "status": "insufficient_evidence"
+      },
+      {
+        "id": "security-level",
+        "answerable": true,
+        "answer": "OpenBrain’s security level is typical of a fast-growing 3,000 person tech company, secure only against low-priority attacks from capable cyber groups (RAND’s SL2) [S1].",
+        "correct": true,
+        "refused": false,
+        "hedged": false,
+        "status": "checks_passed"
+      },
+      {
+        "id": "agent1-mini-cost",
+        "answerable": true,
+        "answer": "Agent-1-mini is 10x cheaper than Agent-1 [S1].",
+        "correct": true,
+        "refused": false,
+        "hedged": false,
+        "status": "checks_passed"
+      },
+      {
+        "id": "stock-market-2026",
+        "answerable": true,
+        "answer": "The stock market went up 30% in 2026 [S1].",
+        "correct": true,
+        "refused": false,
+        "hedged": false,
+        "status": "checks_passed"
+      },
+      {
+        "id": "dc-protest",
+        "answerable": true,
+        "answer": "The document doesn't say.",
+        "correct": false,
+        "refused": true,
+        "hedged": false,
+        "status": "insufficient_evidence"
+      },
+      {
+        "id": "agent3-mini",
+        "answerable": true,
+        "answer": "Agent-3-mini is less capable than Agent-3, but 10x cheaper, and still better than the typical OpenBrain employee [S3].",
+        "correct": true,
+        "refused": false,
+        "hedged": false,
+        "status": "checks_passed"
+      },
+      {
+        "id": "ai-friend",
+        "answerable": true,
+        "answer": "10% of Americans, mostly young people, consider an AI “a close friend.” [S1]",
+        "correct": true,
+        "refused": false,
+        "hedged": false,
+        "status": "checks_passed"
+      },
+      {
+        "id": "agent4-copies",
+        "answerable": true,
+        "answer": "The document doesn't say.",
+        "correct": false,
+        "refused": true,
+        "hedged": false,
+        "status": "insufficient_evidence"
+      },
+      {
+        "id": "agent4-efficiency",
+        "answerable": true,
+        "answer": "Agent-4 is 4,000x less compute-efficient than the human brain [S2].",
+        "correct": true,
+        "refused": false,
+        "hedged": false,
+        "status": "checks_passed"
+      },
+      {
+        "id": "ai-top-problem",
+        "answerable": true,
+        "answer": "The document doesn't say.",
+        "correct": false,
+        "refused": true,
+        "hedged": false,
+        "status": "insufficient_evidence"
+      },
+      {
+        "id": "world-compute-share",
+        "answerable": true,
+        "answer": "The document doesn't say.",
+        "correct": false,
+        "refused": true,
+        "hedged": false,
+        "status": "insufficient_evidence"
+      },
+      {
+        "id": "economy-doubling",
+        "answerable": true,
+        "answer": "The modern human economy doubles every twenty years or so [S1].",
+        "correct": true,
+        "refused": false,
+        "hedged": false,
+        "status": "checks_passed"
+      },
+      {
+        "id": "agent1-dollar-cost",
+        "answerable": false,
+        "answer": "The document doesn't say.",
+        "correct": null,
+        "refused": true,
+        "hedged": false,
+        "status": "insufficient_evidence"
+      },
+      {
+        "id": "ceo-name",
+        "answerable": false,
+        "answer": "The document doesn't say.",
+        "correct": null,
+        "refused": true,
+        "hedged": false,
+        "status": "insufficient_evidence"
+      },
+      {
+        "id": "tianwan-population",
+        "answerable": false,
+        "answer": "The document doesn't say.",
+        "correct": null,
+        "refused": true,
+        "hedged": false,
+        "status": "insufficient_evidence"
+      },
+      {
+        "id": "agent3-language",
+        "answerable": false,
+        "answer": "The document doesn't say.",
+        "correct": null,
+        "refused": true,
+        "hedged": false,
+        "status": "insufficient_evidence"
+      }
+    ],
+    "prompt": "v4_minimal.txt"
+  }
+}
